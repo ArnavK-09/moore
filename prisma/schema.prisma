@@ -1,0 +1,42 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// initializing prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+// database configuration
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// discord user that plays with bot
+model Player {
+  // database unique id
+  id                  String    @id @default(auto()) @map("_id") @db.ObjectId
+  // discord user id
+  discord_id          String    @unique
+  // player's username 
+  username            String
+  // language choosen
+  language            Language?
+  // player's daily streak count
+  current_streak      Int       @default(0)
+  // longest ever player streak 
+  longest_streak      Int       @default(0)
+  // player's total score
+  player_score        Int       @default(0)
+  // player registered date
+  registered_on       DateTime  @default(now())
+  // player last run command
+  last_command_ran_on DateTime  @default(now())
+  // player's coin balance 
+  balance Int @default(0)
+}
+
+// all supported languages list
+enum Language {
+  HINDI
+}
