@@ -47,7 +47,8 @@ export default async (interaction: CommandInteraction) => {
           .setAuthor({ name: `${BOT_NAME}'s Balance...`, iconURL: AVATAR })
           .setTimestamp()
           .setThumbnail(player.displayAvatarURL())
-          .setDescription(`## Player's Wallet\n> ### 🏮${player_data.balance}`),
+          .setTitle("Player's Wallet")
+          .setDescription(`> ### 🏮 __${player_data.balance}__ coins`),
       ],
     });
   }

@@ -29,9 +29,9 @@ export default async (interaction: CommandInteraction) => {
         player.language ?? "Not Selected"
       }\n> **Player's Score:-** ${
         player.player_score
-      }\n> **Wallet Balance:-** 🏮${
+      }\n> **Wallet Balance:-** 🏮 __${
         player.balance
-      } days\n> **Registered On:-** ${time(player.registered_on, "D")}`,
+      }__ coins\n> **Registered On:-** ${time(player.registered_on, "D")}`,
       inline: true,
     });
   });

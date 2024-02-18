@@ -4,6 +4,7 @@ import { AVATAR, BOT_NAME, THEME_COLOR } from "@/constants.js";
 import { Colors, CommandInteraction, EmbedBuilder } from "discord.js";
 import { getPlayer, increasePlayerBalance, randomNumber } from "@/lib.js";
 import AI from "@/ai.js";
+import { lessonPrompt } from "@/prompts.js";
 
 // lesson command config
 export const config: CommandConfig = {
@@ -39,7 +40,7 @@ export default async (interaction: CommandInteraction) => {
       (1000 * 60 * 60 * 24)
   );
   const LESSON = await AI.generateContent(
-    `You are langauge teacher named "${BOT_NAME}" for langauge ${PLAYER?.language} and you are teaching student named "${interaction.user.username}"! And your statuden is on day #${DAY} learning the language! Give me a small lesson in single paragraph for about 5 lines for language ${PLAYER?.language}, make the lesson attractive and balance the level of lesson according to student's level who started learning ${PLAYER?.language} ${DAY} ago.`
+    lessonPrompt(PLAYER!, interaction.user.username, DAY)
   );
   const LESSON_TXT = LESSON.response.text();
 

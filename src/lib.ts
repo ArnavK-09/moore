@@ -11,7 +11,7 @@ import { Language, Player } from "@prisma/client";
  * @param {number} min
  */
 export const randomNumber = (max = 10, min = 0) => {
-  return Math.random() * (max - min) + min;
+  return Math.floor(Math.random() * (max - min) + min);
 };
 
 /**
