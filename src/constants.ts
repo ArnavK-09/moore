@@ -48,7 +48,12 @@ export const BANNER = "https://docs.roboplay.dev/img/logo.png?TODO";
 /**
  * Bot's Funfacts
  */
-export const FACTS = ["hi", "todo"];
+export const FACTS = [
+  "This bot is built for NTTS Hackathon",
+  "My Developer doesnt't like making discord bots",
+  "I love you",
+  "you are optimally human being",
+];
 
 /**
  * Get random element from array

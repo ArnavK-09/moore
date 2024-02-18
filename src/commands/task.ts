@@ -18,7 +18,7 @@ export default async (interaction: CommandInteraction) => {
   await interaction.deferReply();
 
   // check if player choosen language
-  if (!(PLAYER!.language)) {
+  if (!PLAYER!.language) {
     await interaction.editReply({
       embeds: [
         new EmbedBuilder()

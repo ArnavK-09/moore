@@ -1,8 +1,9 @@
-# 🏮 Moore! 
-### Your Language Companion Avaiable On Discord...
+# 🏮 Moore!
+
+### Your Language Companion Available on Discord......
 
 > Initially built for NTTS Hackathon...
 
 <p align="center">
-    <img src="/Logo.png" alt="Logo">
+    <img width="400" height="400" src="/Logo.png" alt="Logo">
 </p>

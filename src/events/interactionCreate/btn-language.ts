@@ -5,7 +5,6 @@ import { Colors, EmbedBuilder } from "discord.js";
 import type { EventConfig } from "@roboplay/robo.js";
 import type { ButtonInteraction } from "discord.js";
 import { getPlayer, updatePlayerLanguage } from "@/lib.js";
-import { AVATAR, BANNER, BOT_NAME, WEBSITE } from "@/constants.js";
 import { newPlayerForm } from "@/middleware/checkIfPlayer.js";
 import { settingsPageActions, settingsPageEmbed } from "@/commands/settings.js";
 import { Language } from "@prisma/client";
