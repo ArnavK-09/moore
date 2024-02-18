@@ -1,6 +1,6 @@
 // import
 import type { CommandConfig } from "@roboplay/robo.js";
-import { AVATAR, BOT_NAME, THEME_COLOR } from "@/constants.js";
+import { AVATAR, BOT_NAME, THEME_COLOR, WEBSITE } from "@/constants.js";
 import { Colors, CommandInteraction, EmbedBuilder } from "discord.js";
 import { getPlayer } from "@/lib.js";
 
@@ -46,6 +46,7 @@ export default async (interaction: CommandInteraction) => {
           .setColor(THEME_COLOR)
           .setAuthor({ name: `${BOT_NAME}'s Balance...`, iconURL: AVATAR })
           .setTimestamp()
+          .setURL(WEBSITE)
           .setThumbnail(player.displayAvatarURL())
           .setTitle("Player's Wallet")
           .setDescription(`> ### 🏮 __${player_data.balance}__ coins`),

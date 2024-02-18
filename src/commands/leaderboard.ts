@@ -1,6 +1,6 @@
 // import
 import type { CommandConfig } from "@roboplay/robo.js";
-import { AVATAR, BOT_NAME, THEME_COLOR } from "@/constants.js";
+import { AVATAR, BOT_NAME, THEME_COLOR, WEBSITE } from "@/constants.js";
 import { CommandInteraction, EmbedBuilder, time } from "discord.js";
 import { listTop10Players } from "@/lib.js";
 
@@ -19,6 +19,7 @@ export default async (interaction: CommandInteraction) => {
     .setColor(THEME_COLOR)
     .setAuthor({ iconURL: AVATAR, name: `Top 10 Players Of ${BOT_NAME}` })
     .setTimestamp()
+    .setURL(WEBSITE)
     .setTitle("__Leaderboard__");
 
   // adding data to leaderboard

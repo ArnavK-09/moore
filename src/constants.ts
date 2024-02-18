@@ -33,12 +33,13 @@ export const THEME_COLOR = Colors.Gold;
 /**
  * Bot's Website
  */
-export const WEBSITE = "https://docs.roboplay.dev/TODO";
+export const WEBSITE = "https://arnavk-09.github.io/moore";
 
 /**
  * Bot's Avatar Image URL
  */
-export const AVATAR = "https://docs.roboplay.dev/img/logo.png?TODO";
+export const AVATAR =
+  "https://raw.githubusercontent.com/ArnavK-09/ntts/main/Logo.png";
 
 /**
  * Bot's Banner Image URL

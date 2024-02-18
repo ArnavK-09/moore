@@ -31,6 +31,7 @@ export const settingsPageEmbed = (
   const EMBED = new EmbedBuilder()
     .setColor(THEME_COLOR)
     .setTitle(`${BOT_NAME}'s Player Settings!`)
+    .setURL(WEBSITE)
     .setDescription(
       `## Language Choosen :- \n# \` ${
         player.language ?? "None"
