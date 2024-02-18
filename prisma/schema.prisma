@@ -22,10 +22,6 @@ model Player {
   username            String
   // language choosen
   language            Language?
-  // player's daily streak count
-  current_streak      Int       @default(0)
-  // longest ever player streak 
-  longest_streak      Int       @default(0)
   // player's total score
   player_score        Int       @default(0)
   // player registered date

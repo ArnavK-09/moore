@@ -1,6 +1,6 @@
 {
   "name": "moore",
-  "description": "Your Language companion",
+  "description": "Your Language companion available on discord....",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -14,6 +14,7 @@
     "lint:eslint": "eslint . --ext js,jsx,ts,tsx",
     "lint:style": "prettier --write .",
     "start": "robo start",
+    "fmt": "npx prettier -w .",
     "db": "npx prisma validate; npx prisma format; npx prisma db push; npx prisma generate"
   },
   "dependencies": {

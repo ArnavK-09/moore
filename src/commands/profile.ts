@@ -43,16 +43,6 @@ const createPlayerProfileEmbed = (
       { name: "Player Username", value: discord_user.username, inline: true },
       { name: "Player ID", value: player.discord_id, inline: true },
       {
-        name: "Current Streak",
-        value: `${player.current_streak} days`,
-        inline: true,
-      },
-      {
-        name: "Longest Streak",
-        value: `${player.longest_streak} days`,
-        inline: true,
-      },
-      {
         name: "Registered On",
         value: `${time(player.registered_on)}`,
         inline: true,
