@@ -4,9 +4,11 @@
 import { Colors, EmbedBuilder } from "discord.js";
 import type { EventConfig } from "@roboplay/robo.js";
 import type { ButtonInteraction } from "discord.js";
-import { getPlayer, registerNewPlayer } from "@/lib.js";
+import { getPlayer, updatePlayerLanguage } from "@/lib.js";
 import { AVATAR, BANNER, BOT_NAME, WEBSITE } from "@/constants.js";
 import { newPlayerForm } from "@/middleware/checkIfPlayer.js";
+import { settingsPageActions, settingsPageEmbed } from "@/commands/settings.js";
+import { Language } from "@prisma/client";
 
 // config for event
 export const config: EventConfig = {
@@ -24,7 +26,9 @@ export default async (interaction: ButtonInteraction) => {
   }
 
   // meta data
-  const NEW_LANGUAGE = interaction.customId.split("@")[1];
+  const NEW_LANGUAGE = interaction.customId
+    .split("@")[1]
+    .toUpperCase() as Language;
   const CURRENT_PLAYER = interaction.customId.split("@")[2];
 
   // loading
@@ -55,7 +59,7 @@ export default async (interaction: ButtonInteraction) => {
   }
 
   // update settings
-  const UPDATED_PLAYER = await registerNewPlayer(interaction.user);
+  const UPDATED_PLAYER = await updatePlayerLanguage(PLAYER, NEW_LANGUAGE);
 
   // notify player about successfull action
   await interaction.followUp({
@@ -65,18 +69,7 @@ export default async (interaction: ButtonInteraction) => {
 
   // update settings embed
   return interaction.editReply({
-    embeds: [
-      new EmbedBuilder()
-        .setColor(Colors.Green)
-        .setTitle("Registration Successfully Executed!!!...")
-        .setURL(WEBSITE ?? null)
-        .setAuthor({
-          name: `Congrats! You are now ${BOT_NAME}'s Player..`,
-          iconURL: AVATAR,
-        })
-        .setDescription(JSON.stringify(REGISTERED_USER))
-        .setFooter({ text: `Checkout your profile using /profile` })
-        .setImage(BANNER),
-    ],
+    embeds: [settingsPageEmbed(UPDATED_PLAYER!, interaction.user)],
+    components: [settingsPageActions(interaction.user.id)],
   });
 };

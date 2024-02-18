@@ -1,7 +1,7 @@
 /**
  * Imports required
  */
-import { PrismaClient } from "@prisma/client";
+import { Language, PrismaClient } from "@prisma/client";
 import { Colors } from "discord.js";
 
 /**
@@ -17,7 +17,13 @@ export const BOT_NAME = "Moore";
 /**
  * Supported languages to learn
  */
-export const LANGUAGES = ["Hindi"];
+export const LANGUAGES: Language[] = [
+  "HINDI",
+  "SPANISH",
+  "FRENCH",
+  "JAPANESE",
+  "KOREAN",
+];
 
 /**
  * Bot's theme color

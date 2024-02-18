@@ -33,10 +33,14 @@ model Player {
   // player last run command
   last_command_ran_on DateTime  @default(now())
   // player's coin balance 
-  balance Int @default(0)
+  balance             Int       @default(0)
 }
 
 // all supported languages list
 enum Language {
   HINDI
+  SPANISH
+  FRENCH
+  JAPANESE
+  KOREAN
 }

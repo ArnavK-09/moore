@@ -1,6 +1,11 @@
 // imports
 import { AVATAR, BOT_NAME, THEME_COLOR, WEBSITE } from "@/constants.js";
-import { getPlayer } from "@/lib.js";
+import {
+  getPlayer,
+  increasePlayerScore,
+  randomNumber,
+  updatePlayerLastRanOn,
+} from "@/lib.js";
 import { type MiddlewareData, type MiddlewareResult } from "@roboplay/robo.js";
 import {
   ActionRowBuilder,
@@ -65,9 +70,18 @@ export default async (
     return;
   }
 
+  // get player from db
+  const PLAYER = await getPlayer(interaction.user.id);
+
   // Alright, check if registered player
-  if (!(await getPlayer(interaction.user.id)) && interaction.reply) {
+  if (!PLAYER && interaction.reply) {
     await interaction.reply(newPlayerForm(interaction.user.id));
     return { abort: true };
+  }
+
+  // if player, increase score for playing more && update history
+  if (PLAYER) {
+    await increasePlayerScore(PLAYER, randomNumber(0, 25));
+    await updatePlayerLastRanOn(PLAYER);
   }
 };
