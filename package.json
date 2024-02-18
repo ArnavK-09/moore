@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "robo build",
+    "build": "robo build --force",
     "deploy": "robo deploy",
     "dev": "NODE_OPTIONS=--enable-source-maps robo dev",
     "doctor": "robo doctor",
