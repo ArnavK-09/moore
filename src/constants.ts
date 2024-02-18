@@ -28,7 +28,7 @@ export const LANGUAGES: Language[] = [
 /**
  * Bot's theme color
  */
-export const THEME_COLOR = Colors.Gold;
+export const THEME_COLOR = "#8b41d2";
 
 /**
  * Bot's Website
