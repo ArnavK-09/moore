@@ -22,7 +22,7 @@ export const taskPrompt = (player: Player, username: string, day = 1) => {
   # Your response should be in valid JSON format and follow the scheme below:-
 
   {
-    body: "MCQ Question in single line, form it in friendly way, include single emoji also, just single line. use \\n for new lines. use. avoid NON WHITESPACE CHARACTER",
+    body: "MCQ Question in single line, form it in friendly way, include single emoji also, just single line. use \\n for new line. add \\ before symbols  ",
     answers: [
       {
         label: "Each MCQ Consists of 4 options from which one is answer, use single or max 2 words for this field",
