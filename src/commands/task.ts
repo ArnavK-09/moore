@@ -50,7 +50,13 @@ export default async (interaction: CommandInteraction) => {
     return;
   } else {
     // if player is worthy
-    const TASK_RAW = await AI.generateContent(taskPrompt());
+    const DAY = Math.floor(
+      (new Date().getTime() - PLAYER!.registered_on.getTime()) /
+        (1000 * 60 * 60 * 24)
+    );
+    const TASK_RAW = await AI.generateContent(
+      taskPrompt(PLAYER!, interaction.user.username, DAY)
+    );
     const TASK = JSON.parse(TASK_RAW.response.text()) as Task;
 
     // return responses

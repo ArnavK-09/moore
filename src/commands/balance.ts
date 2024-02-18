@@ -49,7 +49,9 @@ export default async (interaction: CommandInteraction) => {
           .setURL(WEBSITE)
           .setThumbnail(player.displayAvatarURL())
           .setTitle("Player's Wallet")
-          .setDescription(`> ### 🏮 __${player_data.balance}__ coins`),
+          .setDescription(
+            `> ### 🟣 __${player_data.balance}__ coins\n> ### 🏮 __${player_data.player_score}__ score`
+          ),
       ],
     });
   }

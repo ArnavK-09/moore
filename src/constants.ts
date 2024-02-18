@@ -2,7 +2,6 @@
  * Imports required
  */
 import { Language, PrismaClient } from "@prisma/client";
-import { Colors } from "discord.js";
 
 /**
  * New prisma client for querying db
@@ -44,7 +43,8 @@ export const AVATAR =
 /**
  * Bot's Banner Image URL
  */
-export const BANNER = "https://raw.githubusercontent.com/ArnavK-09/moore/main/Banner.png";
+export const BANNER =
+  "https://raw.githubusercontent.com/ArnavK-09/moore/main/Banner.png";
 
 /**
  * Bot's Funfacts

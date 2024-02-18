@@ -4,12 +4,7 @@
 import { Colors, EmbedBuilder } from "discord.js";
 import type { EventConfig } from "@roboplay/robo.js";
 import type { ButtonInteraction } from "discord.js";
-import {
-  getPlayer,
-  increasePlayerBalance,
-  increasePlayerScore,
-  randomNumber,
-} from "@/lib.js";
+import { getPlayer, increasePlayerBalance, randomNumber } from "@/lib.js";
 import { newPlayerForm } from "@/middleware/checkIfPlayer.js";
 import { AVATAR } from "@/constants.js";
 
@@ -65,8 +60,8 @@ export default async (interaction: ButtonInteraction) => {
   if (!IS_CORRECT_ANSWER) {
     // if not correct answer
     await interaction.followUp({
-      content: `<@${interaction.user.id}>`,
       ephemeral: true,
+      content: `<@${interaction.user.id}>`,
       embeds: [
         new EmbedBuilder()
           .setColor(Colors.DarkRed)
@@ -79,14 +74,13 @@ export default async (interaction: ButtonInteraction) => {
     // correct answer
     const REWARD = randomNumber(100, 555);
     await increasePlayerBalance(PLAYER, REWARD);
-    await increasePlayerScore(PLAYER, REWARD);
     await interaction.message.edit({
       content: `<@${interaction.user.id}>`,
       embeds: [
         new EmbedBuilder()
           .setColor(Colors.Green)
           .setTitle(`"${ANSWER_CHOOSEN}" is Correct Answer :)`)
-          .setDescription(`> ### **Rewarded: 🏮 __${REWARD}__ coins**`)
+          .setDescription(`> ### **Rewarded: 🟣 __${REWARD}__ coins**`)
           .setThumbnail(AVATAR),
       ],
       components: [],

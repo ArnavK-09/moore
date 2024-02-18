@@ -5,7 +5,7 @@
  **/
 export default {
   clientOptions: {
-    intents: ["Guilds", "GuildMessages", "MessageContent"],
+    intents: ["Guilds", "MessageContent"],
   },
   plugins: [],
   type: "robo",
