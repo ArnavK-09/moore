@@ -6,7 +6,7 @@
     <img width="400" height="400" src="/Logo.png" alt="Logo">
 </p>
 
-Language Learner Bot is an open source Discord bot built to help users learn languages like French 🇫🇷, Spanish 🇪🇸, Hindi 🇮🇳, etc. It was created for the NTTS Hackathon 2024.
+Language Learner Bot is an open source Discord bot built to help users learn languages like French 🇫🇷, Spanish 🇪🇸, Hindi 🇮🇳, Japanese 🇯🇵, Korean 🇰🇷 etc. It was created for the NTTS Hackathon 2024.
 
 ## Features ✨
 
@@ -19,7 +19,7 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 
 ## Tech Stack 🛠️
 
-- **Discord.js* - API wrapper for interacting with Discord  
+- **Discord.js** - API wrapper for interacting with Discord  
 - **Google Gemini API** - NLP model to power conversations
 - **Robo.js** - Framework for building Discord bots 
 - **TypeScript** - Programming language
