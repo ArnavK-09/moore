@@ -29,17 +29,44 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 
 ## Deployment 🚀
 
-The bot is hosted on a Linux server and runs continuously using PM2 process manager. It connects to Discord via a bot token. Database is hosted on MongoDB Atlas.
+The bot is hosted on a Roboplay and runs continuously using serverless system. It connects to Discord via a bot token. Database is hosted on Official MongoDB Atlas.
 
-## Contributing 🤝
+## Demo 💥
 
-Contributions are welcome! Here are ways you can contribute to this project: 
+<table>
+<tr>
+<td>
+  
+  ![Demo Pic 1](images/demo1.png)
+  
+  *The bot responding to a user command*
+  
+</td>
+<td>
 
-- Report bugs and issues
-- Fix bugs and add new features
-- Improve prompts
-- Add more languages
+  ![Demo Pic 2](images/demo2.png)
+  
+  *A quiz question being asked*
+  
+</td>
+</tr>
+<tr>
+<td>
 
+  ![Demo Pic 3](images/demo3.png)
+  
+  *The daily lesson module*
+
+</td>
+<td>
+
+  ![Demo Pic 4](images/demo4.png) 
+  
+  *Leaderboard showing user points*
+  
+</td>
+</tr>
+</table>
 
 ## Slash Commands 🗡️
 
@@ -51,6 +78,17 @@ Contributions are welcome! Here are ways you can contribute to this project:
 | /points | View your accumulated points |
 | /lesson | Start your daily language lesson |
 | /quiz | Take a quiz to earn points |
+
+
+## Contributing 🤝
+
+Contributions are welcome! Here are ways you can contribute to this project: 
+
+- Report bugs and issues
+- Fix bugs and add new features
+- Improve prompts
+- Add more languages
+
 
 ## License 📝
 
