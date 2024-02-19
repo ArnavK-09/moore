@@ -3,7 +3,7 @@
 ## Your Language Companion Available on Discord......
 
 <p align="center">
-    <img height="400" src="/Logo.png" alt="Logo">
+    <img width="600" height="400" src="/Logo.png" alt="Logo">
 </p>
 
 Language Learner Bot is an open source Discord bot built to help users learn languages like French 🇫🇷, Spanish 🇪🇸, Hindi 🇮🇳, Japanese 🇯🇵, Korean 🇰🇷 etc. It was created for the NTTS Hackathon 2024.
