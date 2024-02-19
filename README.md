@@ -19,13 +19,13 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 
 ## Tech Stack 🛠️
 
-- [Discord.js](https://discord.js.org/) - API wrapper for interacting with Discord  
-- [Google Gemini API](https://cloud.google.com/conversational-ai/docs/gemini/overview) - NLP model to power conversations
-- [Robo.js](https://www.npmjs.com/package/robo-js) - Framework for building Discord bots 
-- JavaScript - Programming language
-- Node.js - Runtime environment
-- MongoDB - Database to store user data
-- PM2 - Process manager to keep bot alive
+- ,Discord.js* - API wrapper for interacting with Discord  
+- **Google Gemini API** - NLP model to power conversations
+- **Robo.js** - Framework for building Discord bots 
+- **TypeScript** - Programming language
+- **Node.js** - Runtime environment
+- **NPM** - Package Manager
+- **MongoDB** - Database to store user data
 
 ## Deployment 🚀
 
