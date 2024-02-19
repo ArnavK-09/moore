@@ -79,6 +79,13 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 | /lesson | Start your daily language lesson |
 | /quiz | Take a quiz to earn points |
 
+## Links 🔗
+
+GitHub Repo 📁: https://github.com/ArnavK-09/moore
+
+Website 🌐: https://arnavk-09.github.io/moore  
+
+Discord Invite Link ➕: https://arnavk-09.github.io/moore
 
 ## Contributing 🤝
 
