@@ -19,7 +19,7 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 
 ## Tech Stack 🛠️
 
-- ,Discord.js* - API wrapper for interacting with Discord  
+- **Discord.js* - API wrapper for interacting with Discord  
 - **Google Gemini API** - NLP model to power conversations
 - **Robo.js** - Framework for building Discord bots 
 - **TypeScript** - Programming language
