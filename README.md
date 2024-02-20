@@ -59,11 +59,14 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 | Command | Description |
 |-|-|  
 | /help | Displays list of available commands |
-| /lang | Choose your language to learn |
-| /level | Check your current proficiency level |
+| /balance | Get your wallet balance...coins |
+| /leaderboard | List top 10 Players, Sort by scores! |
 | /points | View your accumulated points |
-| /lesson | Start your daily language lesson |
-| /quiz | Take a quiz to earn points |
+| /lesson | Get your daily language lesson |
+| /ping | Sneak out the speed of bot! |
+| /profile | Checkout your & others player profile |
+| /settings | Configure player settings |
+| /task | Complete your daily task to earn.. |
 
 ## Links 🔗
 
