@@ -3,7 +3,7 @@
 ## Your Language Companion Available on Discord......
 
 <p align="center">
-    <img width="600" src="/Logo.png" alt="Logo">
+    <img width="600" src="https://raw.githubusercontent.com/ArnavK-09/moore/main/Logo.png" alt="Logo">
 </p>
 
 Language Learner Bot is an open source Discord bot built to help users learn languages like French 🇫🇷, Spanish 🇪🇸, Hindi 🇮🇳, Japanese 🇯🇵, Korean 🇰🇷 etc. It was created for the NTTS Hackathon 2024.
@@ -42,25 +42,11 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *The bot responding to a user command*
   
 </td>
-<td>
-
-  ![Demo Pic 2](images/demo2.png)
-  
-  *A quiz question being asked*
-  
-</td>
 </tr>
 <tr>
 <td>
 
-  ![Demo Pic 3](images/demo3.png)
-  
-  *The daily lesson module*
-
-</td>
-<td>
-
-  ![Demo Pic 4](images/demo4.png) 
+  ![Demo Pic 2](images/demo4.png) 
   
   *Leaderboard showing user points*
   
@@ -81,11 +67,11 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
 ## Links 🔗
 
-GitHub Repo 📁: https://github.com/ArnavK-09/moore
+GitHub Repo 📁: [https://github.com/ArnavK-09/moore](https://github.com/ArnavK-09/moore)
 
-Website 🌐: https://arnavk-09.github.io/moore  
+Website 🌐: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)  
 
-Discord Invite Link ➕: https://arnavk-09.github.io/moore
+Bot Invite Link ➕: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)
 
 ## Contributing 🤝
 
@@ -101,4 +87,4 @@ Contributions are welcome! Here are ways you can contribute to this project:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Let me know if you would like me to expand or modify any part of this README!
+> **Let me know if you would like me to expand or modify any part of this README!**
