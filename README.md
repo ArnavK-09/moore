@@ -39,7 +39,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   
   ![Ping Command](demo/ping.jpg)
   
-  *The bot responding to a user command*
+  *Sneak out the speed of bot!*
   
 </td>
 </tr>
@@ -48,7 +48,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Help Command](demo/help.jpg) 
   
-  *Leaderboard showing user points*
+  *Displays list of available commands*
   
 </td>
 </tr>
@@ -57,7 +57,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Leaderboard Command](demo/leaderboard.jpg) 
   
-  *Leaderboard showing user points*
+  *List top 10 Players, Sort by scores*
   
 </td>
 </tr>
@@ -66,7 +66,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Profile Command](demo/profile.jpg) 
   
-  *Leaderboard showing user points*
+  *Checkout your & others player profile*
   
 </td>
 </tr>
@@ -75,7 +75,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Lesson Command](demo/lesson.jpg) 
   
-  *Leaderboard showing user points*
+  *Get your daily language lesson*
   
 </td>
 </tr>
@@ -84,7 +84,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Balance Command](demo/balance.jpg) 
   
-  *Leaderboard showing user points*
+  *Get your wallet balance*
   
 </td>
 </tr>
@@ -93,7 +93,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Task Command](demo/task.jpg) 
   
-  *Leaderboard showing user points*
+  *Earn coins completing tasks*
   
 </td>
 </tr>
@@ -116,7 +116,6 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 | /help | Displays list of available commands |
 | /balance | Get your wallet balance...coins |
 | /leaderboard | List top 10 Players, Sort by scores! |
-| /points | View your accumulated points |
 | /lesson | Get your daily language lesson |
 | /ping | Sneak out the speed of bot! |
 | /profile | Checkout your & others player profile |
