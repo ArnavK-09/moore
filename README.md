@@ -127,7 +127,7 @@ GitHub Repo 📁: [https://github.com/ArnavK-09/moore](https://github.com/ArnavK
 
 Website 🌐: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)  
 
-Bot Invite Link ➕: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)
+**Bot Invite Link ➕: [https://discord.com/api/oauth2/authorize?client_id=1208824060797132890&permissions=8&scope=bot+applications.commands](https://discord.com/api/oauth2/authorize?client_id=1208824060797132890&permissions=8&scope=bot+applications.commands)**
 
 ## Contributing 🤝
 
