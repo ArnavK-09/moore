@@ -73,7 +73,7 @@ export default async (interaction: ButtonInteraction) => {
   } else {
     // correct answer
     const REWARD = randomNumber(100, 555);
-    await increasePlayerBalance(PLAYER, REWARD);
+    increasePlayerBalance(PLAYER, REWARD);
     await interaction.message.edit({
       content: `<@${interaction.user.id}>`,
       embeds: [

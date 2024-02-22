@@ -43,22 +43,22 @@ export default async (interaction: ButtonInteraction) => {
   }
 
   // creating new user
-  const REGISTERED_USER = await registerNewPlayer(interaction.user);
-
-  // notify user about successfull registartion
-  return interaction.followUp({
-    content: `<@${interaction.user.id}>`,
-    embeds: [
-      new EmbedBuilder()
-        .setColor(Colors.Green)
-        .setTitle("Registration Successfully Executed!!!...")
-        .setURL(WEBSITE ?? null)
-        .setAuthor({
-          name: `Congrats! You are now ${BOT_NAME}'s Player..`,
-          iconURL: AVATAR,
-        })
-        .setFooter({ text: `Checkout your profile using /profile` })
-        .setImage(BANNER),
-    ],
+  await registerNewPlayer(interaction.user).then(() => {
+    // notify user about successfull registartion
+    return interaction.followUp({
+      content: `<@${interaction.user.id}>`,
+      embeds: [
+        new EmbedBuilder()
+          .setColor(Colors.Green)
+          .setTitle("Registration Successfully Executed!!!...")
+          .setURL(WEBSITE ?? null)
+          .setAuthor({
+            name: `Congrats! You are now ${BOT_NAME}'s Player..`,
+            iconURL: AVATAR,
+          })
+          .setFooter({ text: `Checkout your profile using /profile` })
+          .setImage(BANNER),
+      ],
+    });
   });
 };

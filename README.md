@@ -12,16 +12,16 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 
 - Provides daily language lessons 📚 catered to the user's proficiency level
 - Gives users tasks and quizzes 🎮 to earn points and virtual coins 🪙
-- Uses AI (Google Gemini API) 🧠 to generate appropriate questions and respond to users  
+- Uses AI (Google Gemini API) 🧠 to generate appropriate questions and respond to users
 - Lets users choose which language they want to learn 🌍
 - Tracks user progress 📈 and collects analytics to improve lessons
 - Fun and interactive way to learn languages on Discord 🎉
 
 ## Tech Stack 🛠️
 
-- **Discord.js** - API wrapper for interacting with Discord  
+- **Discord.js** - API wrapper for interacting with Discord
 - **Google Gemini API** - NLP model to power conversations
-- **Robo.js** - Framework for building Discord bots 
+- **Robo.js** - Framework for building Discord bots
 - **TypeScript** - Programming language
 - **Node.js** - Runtime environment
 - **NPM** - Package Manager
@@ -29,16 +29,16 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 
 ## Slash Commands 🗡️
 
-| Command | Description |
-|-|-|  
-| /help | Displays list of available commands |
-| /balance | Get your wallet balance...coins |
-| /leaderboard | List top 10 Players, Sort by scores! |
-| /lesson | Get your daily language lesson |
-| /ping | Sneak out the speed of bot! |
-| /profile | Checkout your & others player profile |
-| /settings | Configure player settings |
-| /task | Complete your daily task to earn.. |
+| Command      | Description                           |
+| ------------ | ------------------------------------- |
+| /help        | Displays list of available commands   |
+| /balance     | Get your wallet balance...coins       |
+| /leaderboard | List top 10 Players, Sort by scores!  |
+| /lesson      | Get your daily language lesson        |
+| /ping        | Sneak out the speed of bot!           |
+| /profile     | Checkout your & others player profile |
+| /settings    | Configure player settings             |
+| /task        | Complete your daily task to earn..    |
 
 ## Deployment 🚀
 
@@ -59,63 +59,64 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 <tr>
 <td>
 
-  ![Help Command](demo/help.jpg) 
-  
-  *Displays list of available commands*
-  
+![Help Command](demo/help.jpg)
+
+_Displays list of available commands_
+
 </td>
 </tr>
 <tr>
 <td>
 
-  ![Leaderboard Command](demo/leaderboard.jpg) 
-  
-  *List top 10 Players, Sort by scores*
-  
+![Leaderboard Command](demo/leaderboard.jpg)
+
+_List top 10 Players, Sort by scores_
+
 </td>
 </tr>
 <tr>
 <td>
 
-  ![Profile Command](demo/profile.jpg) 
-  
-  *Checkout your & others player profile*
-  
+![Profile Command](demo/profile.jpg)
+
+_Checkout your & others player profile_
+
 </td>
 </tr>
 <tr>
 <td>
 
-  ![Lesson Command](demo/lesson.jpg) 
-  
-  *Get your daily language lesson*
-  
+![Lesson Command](demo/lesson.jpg)
+
+_Get your daily language lesson_
+
 </td>
 </tr>
 <tr>
 <td>
 
-  ![Balance Command](demo/balance.jpg) 
-  
-  *Get your wallet balance*
-  
+![Balance Command](demo/balance.jpg)
+
+_Get your wallet balance_
+
 </td>
 </tr>
 <tr>
 <td>
 
-  ![Task Command](demo/task.jpg) 
-  
-  *Complete your daily task to earn*
+![Task Command](demo/task.jpg)
+
+_Complete your daily task to earn_
+
 </td>
 </tr>
 <tr>
 <td>
 
-  ![Task Completed](demo/task_completed.jpg) 
-  
-  *Earn coins completing tasks*
-  
+![Task Completed](demo/task_completed.jpg)
+
+_Earn coins completing tasks_
+
 </td>
 </tr>
 </tr>
@@ -125,19 +126,18 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
 GitHub Repo 📁: [https://github.com/ArnavK-09/moore](https://github.com/ArnavK-09/moore)
 
-Website 🌐: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)  
+Website 🌐: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)
 
 **Bot Invite Link ➕: [https://discord.com/api/invite...](https://discord.com/api/oauth2/authorize?client_id=1208824060797132890&permissions=8&scope=bot+applications.commands)**
 
 ## Contributing 🤝
 
-Contributions are welcome! Here are ways you can contribute to this project: 
+Contributions are welcome! Here are ways you can contribute to this project:
 
 - Report bugs and issues
 - Fix bugs and add new features
 - Improve prompts
 - Add more languages
-
 
 ## License 📝
 
