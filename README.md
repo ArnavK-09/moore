@@ -51,6 +51,8 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
+</tr>
+<tr>
 <td>
 
   ![Leaderboard Command](demo/leaderboard.jpg) 
@@ -58,6 +60,8 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
+</tr>
+<tr>
 <td>
 
   ![Profile Command](demo/profile.jpg) 
@@ -65,6 +69,8 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
+</tr>
+<tr>
 <td>
 
   ![Lesson Command](demo/lesson.jpg) 
@@ -72,6 +78,8 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
+</tr>
+<tr>
 <td>
 
   ![Balance Command](demo/balance.jpg) 
@@ -79,6 +87,8 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
+</tr>
+<tr>
 <td>
 
   ![Task Command](demo/task.jpg) 
@@ -86,6 +96,8 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
+</tr>
+<tr>
 <td>
 
   ![Task Completed](demo/task_completed.jpg) 
@@ -93,7 +105,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   *Leaderboard showing user points*
   
 </td>
-
+</tr>
 </tr>
 </table>
 
