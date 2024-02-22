@@ -18,11 +18,11 @@ export const taskPrompt = (player: Player, username: string, day = 1) => {
   return `
   You are langauge teacher named "${BOT_NAME}" for langauge ${player.language} and you are teaching student named "${username}"! And your student is on day #${day} learning the language ${player.language}! Give a tedious MCQ TASK for language ${player.language}, make the MCQ Answers attractive and balance the level of lesson according to student's level who started learning ${player.language} ${day} days ago.
   MAKE SURE TO GIVE DIFFICULTY OF QUESTION AS THE PLAYER EXPIERNCE RISES...
-  
+  # RESPOND WITH ONLY ONE SINGLE JSON OBJECT 
   # Your response should be in valid JSON format and follow the scheme below:-
-
+ 
   {
-    body: "MCQ Question in single line, form it in friendly way, include single emoji also, just single line. NO NEW LINES, ANSWER ONLY IN SINGLE LINE",
+    body: "MCQ Question in single line, form it in friendly way, include single emoji also, just single line. NO NEW LINES, ANSWER ONLY IN SINGLE LINE, NO FORMATTING JUST PLAIN SIMPLE TEXT ",
     answers: [
       {
         label: "Each MCQ Consists of 4 options from which one is answer, use single or max 2 words for this field",
