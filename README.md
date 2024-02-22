@@ -37,7 +37,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 <tr>
 <td>
   
-  ![Demo Pic 1](images/demo1.png)
+  ![Ping Command](demo/ping.jpg)
   
   *The bot responding to a user command*
   
@@ -46,49 +46,49 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 <tr>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Help Command](demo/help.jpg) 
   
   *Leaderboard showing user points*
   
 </td>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Leaderboard Command](demo/leaderboard.jpg) 
   
   *Leaderboard showing user points*
   
 </td>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Profile Command](demo/profile.jpg) 
   
   *Leaderboard showing user points*
   
 </td>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Lesson Command](demo/lesson.jpg) 
   
   *Leaderboard showing user points*
   
 </td>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Balance Command](demo/balance.jpg) 
   
   *Leaderboard showing user points*
   
 </td>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Task Command](demo/task.jpg) 
   
   *Leaderboard showing user points*
   
 </td>
 <td>
 
-  ![Demo Pic 2](images/demo4.png) 
+  ![Task Completed](demo/task_completed.jpg) 
   
   *Leaderboard showing user points*
   
