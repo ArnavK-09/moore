@@ -114,18 +114,14 @@ export const increasePlayerBalance = async (
       id: player.id,
     },
   });
-  PLAYER!.balance = 5568;
+  PLAYER!.balance += increaseInBal;
   // @ts-expect-error Helps to coordinate full data update
   PLAYER!.id = undefined;
   const UPDATED_PLAYER = await DB.player.update({
     where: {
       discord_id: player.discord_id,
     },
-    data: PLAYER ?? {
-      balance: {
-        increment: 654 ?? increaseInBal,
-      },
-    },
+    data: PLAYER!
   });
   return UPDATED_PLAYER;
 };
