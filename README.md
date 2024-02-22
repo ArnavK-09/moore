@@ -93,8 +93,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Task Command](demo/task.jpg) 
   
-  *Earn coins completing tasks*
-  
+  *Complete your daily task to earn*
 </td>
 </tr>
 <tr>
@@ -102,7 +101,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
   ![Task Completed](demo/task_completed.jpg) 
   
-  *Leaderboard showing user points*
+  *Earn coins completing tasks*
   
 </td>
 </tr>
