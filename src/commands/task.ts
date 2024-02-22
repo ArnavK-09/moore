@@ -57,7 +57,6 @@ export default async (interaction: CommandInteraction) => {
     const TASK_RAW = await AI.generateContent(
       taskPrompt(PLAYER!, interaction.user.username, DAY)
     );
-    console.log(TASK_RAW.response.text())
     const TASK = JSON.parse(TASK_RAW.response.text()) as Task;
 
     // return responses
