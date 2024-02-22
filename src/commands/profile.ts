@@ -89,18 +89,18 @@ export default async (interaction: CommandInteraction) => {
 
   // if no player exist
   if (!player_data) {
-    return ({
+    return {
       embeds: [
         new EmbedBuilder()
           .setColor(Colors.DarkRed)
           .setTitle("This Player Hasn't Registered Yet!")
           .setThumbnail("https://emojifavicon.dev/favicons/274c.png"),
       ],
-    });
+    };
   } else {
     // replying user data
-    return ({
+    return {
       embeds: [createPlayerProfileEmbed(player_data!, interaction.user)],
-    });
+    };
   }
 };
