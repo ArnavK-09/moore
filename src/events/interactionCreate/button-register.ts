@@ -57,7 +57,6 @@ export default async (interaction: ButtonInteraction) => {
           name: `Congrats! You are now ${BOT_NAME}'s Player..`,
           iconURL: AVATAR,
         })
-        .setDescription(JSON.stringify(REGISTERED_USER))
         .setFooter({ text: `Checkout your profile using /profile` })
         .setImage(BANNER),
     ],
