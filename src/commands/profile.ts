@@ -84,15 +84,12 @@ export default async (interaction: CommandInteraction) => {
   // get player
   const player = interaction.options.getUser("player") ?? interaction.user;
 
-  // loading
-  await interaction.deferReply();
-
   // get player data
   const player_data = await getPlayer(player.id);
 
   // if no player exist
   if (!player_data) {
-    return await interaction.editReply({
+    return ({
       embeds: [
         new EmbedBuilder()
           .setColor(Colors.DarkRed)
@@ -102,7 +99,7 @@ export default async (interaction: CommandInteraction) => {
     });
   } else {
     // replying user data
-    return await interaction.editReply({
+    return ({
       embeds: [createPlayerProfileEmbed(player_data!, interaction.user)],
     });
   }
