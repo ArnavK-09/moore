@@ -27,6 +27,19 @@ Language Learner Bot is an open source Discord bot built to help users learn lan
 - **NPM** - Package Manager
 - **MongoDB** - Database to store user data
 
+## Slash Commands 🗡️
+
+| Command | Description |
+|-|-|  
+| /help | Displays list of available commands |
+| /balance | Get your wallet balance...coins |
+| /leaderboard | List top 10 Players, Sort by scores! |
+| /lesson | Get your daily language lesson |
+| /ping | Sneak out the speed of bot! |
+| /profile | Checkout your & others player profile |
+| /settings | Configure player settings |
+| /task | Complete your daily task to earn.. |
+
 ## Deployment 🚀
 
 The bot is hosted on a Roboplay and runs continuously using serverless system. It connects to Discord via a bot token. Database is hosted on Official MongoDB Atlas.
@@ -108,26 +121,13 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 </tr>
 </table>
 
-## Slash Commands 🗡️
-
-| Command | Description |
-|-|-|  
-| /help | Displays list of available commands |
-| /balance | Get your wallet balance...coins |
-| /leaderboard | List top 10 Players, Sort by scores! |
-| /lesson | Get your daily language lesson |
-| /ping | Sneak out the speed of bot! |
-| /profile | Checkout your & others player profile |
-| /settings | Configure player settings |
-| /task | Complete your daily task to earn.. |
-
 ## Links 🔗
 
 GitHub Repo 📁: [https://github.com/ArnavK-09/moore](https://github.com/ArnavK-09/moore)
 
 Website 🌐: [https://arnavk-09.github.io/moore](https://arnavk-09.github.io/moore)  
 
-**Bot Invite Link ➕: [https://discord.com/api/oauth2/authorize?client_id=1208824060797132890&permissions=8&scope=bot+applications.commands](https://discord.com/api/oauth2/authorize?client_id=1208824060797132890&permissions=8&scope=bot+applications.commands)**
+**Bot Invite Link ➕: [https://discord.com/api/invite...](https://discord.com/api/oauth2/authorize?client_id=1208824060797132890&permissions=8&scope=bot+applications.commands)**
 
 ## Contributing 🤝
 
