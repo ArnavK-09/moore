@@ -43,7 +43,7 @@ export const newPlayerForm = (userID: Snowflake): InteractionReplyOptions => {
           name: `${BOT_NAME}'s Registration Form...`,
           iconURL: AVATAR,
         })
-        .setDescription("> Currently Not Alpha...")
+        .setDescription("> Currently In Alpha...")
         .setTimestamp()
         .setFooter({ text: "By registering you continue with our terms!" }),
     ],
