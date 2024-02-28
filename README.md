@@ -50,7 +50,7 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 <tr>
 <td>
   
-  ![Ping Command](demo/ping.jpg)
+  <img src="demo/ping.jpg" alt="Ping Command">
   
   *Sneak out the speed of bot!*
   
