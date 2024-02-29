@@ -52,70 +52,70 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
   
   <img src="demo/ping.jpg" alt="Ping Command">
   
-  *Sneak out the speed of bot!*
+  **Sneak out the speed of bot**
   
 </td>
 </tr>
 <tr>
 <td>
 
-![Help Command](demo/help.jpg)
+<img src="demo/help.jpg" alt="Help Command">
 
-_Displays list of available commands_
-
-</td>
-</tr>
-<tr>
-<td>
-
-![Leaderboard Command](demo/leaderboard.jpg)
-
-_List top 10 Players, Sort by scores_
+**Displays list of available commands**
 
 </td>
 </tr>
 <tr>
 <td>
 
-![Profile Command](demo/profile.jpg)
+<img src="demo/leaderboard.jpg" alt="Leaderboard Command">
 
-_Checkout your & others player profile_
-
-</td>
-</tr>
-<tr>
-<td>
-
-![Lesson Command](demo/lesson.jpg)
-
-_Get your daily language lesson_
+**List top 10 Players, Sort by scores**
 
 </td>
 </tr>
 <tr>
 <td>
 
-![Balance Command](demo/balance.jpg)
+<img src="demo/profile.jpg" alt="Profile Command">
 
-_Get your wallet balance_
-
-</td>
-</tr>
-<tr>
-<td>
-
-![Task Command](demo/task.jpg)
-
-_Complete your daily task to earn_
+**Checkout your & others player profile**
 
 </td>
 </tr>
 <tr>
 <td>
 
-![Task Completed](demo/task_completed.jpg)
+<img src="demo/lesson.jpg" alt="Lesson Command">
 
-_Earn coins completing tasks_
+**Get your daily language lesson**
+
+</td>
+</tr>
+<tr>
+<td>
+
+<img src="demo/balance.jpg" alt="Balance Command">
+
+**Get your wallet balance**
+
+</td>
+</tr>
+<tr>
+<td>
+
+<img src="demo/task.jpg" alt="Task Command">
+
+**Complete your daily task to earn**
+
+</td>
+</tr>
+<tr>
+<td>
+
+<img src="demo/task_completed.jpg" alt="Task Done Command">
+
+**Earn coins completing tasks**
 
 </td>
 </tr>
