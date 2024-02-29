@@ -119,7 +119,6 @@ The bot is hosted on a Roboplay and runs continuously using serverless system. I
 
 </td>
 </tr>
-</tr>
 </table>
 
 ## Links 🔗
